@@ -64,7 +64,7 @@ public class HomeController {
 	@GetMapping("/login")
 	public String login(Model model) {
 		model.addAttribute("adminLogin", new AdminLogin());
-		return "login";
+		return "Login";
 	}
 
 }
